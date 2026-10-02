@@ -1,0 +1,46 @@
+{
+    "camera_index": 0,
+    "camera_width": 640,
+    "camera_height": 480,
+    "target_fps": 30,
+
+    "head_margin": 0.05,
+    "hold_frames": 5,
+    "cooldown_seconds": 2.5,
+
+    "rock_hold_frames": 4,
+    "rock_cooldown_seconds": 2.5,
+
+    "rock_face_turn_threshold": 0.12,
+    "rock_eyebrow_threshold": 0.30,
+
+    "meme_duration_seconds": 2.0,
+
+    "gestures": {
+        "fahh": {
+            "image": "assets/fahh.png",
+            "sound": "sounds/fahh.mp3",
+            "duration": 2.0,
+            "cooldown": 2.5
+        },
+
+        "rock": {
+            "image": "assets/rock.png",
+            "sound": "sounds/rock.mp3",
+            "duration": 2.0,
+            "cooldown": 2.5
+        },
+
+        "sixseven": {
+            "image": "assets/sixseven.png",
+            "sound": "sounds/sixseven.mp3",
+            "duration": 2.0,
+            "cooldown": 2.5
+        }
+    },
+
+    "server": {
+        "host": "127.0.0.1",
+        "port": 5000
+    }
+}
